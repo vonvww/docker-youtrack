@@ -3,7 +3,7 @@ MAINTAINER Alpha Hinex <AlphaHinex@gmail.com>
 
 RUN echo "Asia/Shanghai" > /etc/timezone
 RUN dpkg-reconfigure -f noninteractive tzdata
-RUN wget https://download.jetbrains.com/charisma/youtrack-${YOUTRACK_VERSION}.jar \
+RUN wget https://download.jetbrains.com/charisma/youtrack-2017.4.39533.jar \
  -O youtrack.jar
 
 EXPOSE 80
