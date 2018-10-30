@@ -7,4 +7,4 @@ RUN wget https://download.jetbrains.com/charisma/youtrack-2018.3.46727.jar \
  -O youtrack.jar
 
 EXPOSE 80
-CMD ["java", "-Xmx1g", "-Djava.awt.headless=true", "-jar", "youtrack.jar", "80/youtrack"]
+CMD ["java", "-Djava.awt.headless=true", "-jar", "youtrack.jar", "80/youtrack"]
